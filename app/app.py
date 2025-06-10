@@ -11,7 +11,7 @@ logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
-ALLOWED_IP = ["192.168.0.110", "192.168.0.100"]
+ALLOWED_IP = ["192.168.0.1", "192.168.0.2"]
 
 
 @app.middleware("http")
